@@ -1,0 +1,12 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "lis2-common"
+version = "0.0.1"
+description = "Common code and clients for LIS2 projects"
+requires-python = ">=3.8"
+dependencies = [
+  "requests>=2.32.0",
+]
